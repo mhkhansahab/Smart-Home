@@ -1,0 +1,16 @@
+h2{
+    margin-left: 3%;
+}
+.rooms{
+    max-height: 250px;
+    display: flex;
+    overflow-x: auto;
+}
+.rooms::-webkit-scrollbar{
+    width: 0;
+}
+.rooms{
+    margin: 0 5px;
+    min-width: 100%;
+    text-align: center;
+}

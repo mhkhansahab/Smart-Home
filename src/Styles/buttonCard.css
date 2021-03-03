@@ -1,0 +1,32 @@
+.buttonCard{
+    background-color:#ffd740;
+    width: 220px;
+    height: 220px;
+    min-width: 180px;
+    text-align: center;
+    
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 2px rgba(128,128,128,0.6);
+    margin: 10px 30px;
+    cursor: pointer;
+}
+.buttonImage{
+    height: 120px;
+    width: 120px;
+}
+.mySwitch{
+    margin-bottom: 5px;
+}
+
+@media(max-width: 1160px){
+    .buttonCard{
+        margin: 10px 20px;
+    }
+    
+}
+@media(max-width: 400px){
+    .buttonCard{
+        
+    }
+}
